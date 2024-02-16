@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Chakra+Petch&display=swap')
 :root{
     --cor-de-fundo:#1E1E1E;
     --verde:#6FFF57;
@@ -9,4 +10,16 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco);
+    font-family: 'Anta';
+}
+.botao{
+    font-family: 'anta';
+    background-color: var(--botao-inativo);
+    color:var(--branco);
+    font-size: 18px;
+    padding: 1em;
+}
+
+.titulo-principal{
+    font-size: 32px;
 }
